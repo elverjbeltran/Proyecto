@@ -11,29 +11,5 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("/loginAdmin")
-    public String adminLogin() {
-        return "loginAdmin";
-    }
-
-    @GetMapping("/loginDirector")
-    public String directorLogin() {
-        return "loginDirector";
-    }
-
-    @GetMapping("/loginEst")
-    public String EstudLogin() {
-        return "loginEst";
-    }
-    
-    @GetMapping("/loginEv")
-    public String EvaluaLogin() {
-        return "loginEv";
-    }
-    
-    @GetMapping("/loginCoor")
-    public String CoordinadorLogin() {
-        return "loginCoor";
-    }
-
+  
 }
